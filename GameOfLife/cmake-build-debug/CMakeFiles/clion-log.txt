@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/holik/clion/GameOfLife -B /home/holik/clion/GameOfLife/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/holik/clion/GameOfLife/cmake-build-debug

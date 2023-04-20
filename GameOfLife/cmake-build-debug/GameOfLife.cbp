@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GameOfLife"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/holik/clion/GameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/holik/clion/GameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/holik/clion/GameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameOfLife">
+				<Option output="/home/holik/clion/GameOfLife/cmake-build-debug/GameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/holik/clion/GameOfLife/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameOfLife"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameOfLife/fast">
+				<Option output="/home/holik/clion/GameOfLife/cmake-build-debug/GameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/holik/clion/GameOfLife/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameOfLife/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/holik/clion/GameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/holik/clion/GameOfLife/Bunka.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Bunka.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/CitacVzorov.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/CitacVzorov.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Displej.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Displej.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Hra.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Hra.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Vzor.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/Vzor.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/arraylist.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/arraylist.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/client.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/client.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/main.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/server.c">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/server.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/home/holik/clion/GameOfLife/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
